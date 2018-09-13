@@ -14,6 +14,7 @@ if(btn.equalsIgnoreCase("login"))
 {  String arr[] =request.getParameterValues("t1");
 String topic=arr[0];
 Database db = new Database();
+db.addUser("mike","test",100,new String[]{"",""});
 
 }
 %>
